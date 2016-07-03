@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/gridLayout5"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Topic:"
+            android:id="@+id/textView47"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/topicText"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:accessibilityLiveRegion="assertive" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Votes:"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_marginLeft="15dp"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tracker:"
+            android:id="@+id/textView9"
+            android:layout_row="4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/voteText"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Description"
+            android:id="@+id/textView13"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:layout_row="5"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/trackerText"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="4"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/dectext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="5"
+            android:layout_column="1" />
+
+    </GridLayout>
+
+</RelativeLayout>

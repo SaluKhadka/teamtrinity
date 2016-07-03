@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">OpenComplaintss</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="ministry">
+        <item> Agricultural Development</item>
+        <item> Co-operatives and Poverty Alleviation</item>
+        <item> Culture Tourism and Civil Aviation</item>
+        <item> Defence</item>
+        <item> Education</item>
+        <item> Energy</item>
+        <item> Federal Affairs and Local Development</item>
+        <item> Finance</item>
+        <item> Foreign Affairs</item>
+        <item> Forests and Soil Conservation</item>
+        <item> General Administration</item>
+        <item> Health and Population</item>
+        <item> Home Affairs</item>
+        <item> Industry	</item>
+        <item> Information and Communications</item>
+        <item> Irrigation</item>
+        <item> Labour and Employment</item>
+        <item> Land reform and Management</item>
+        <item> Parliamentary Affairs</item>
+        <item> Office of the Prime Minister</item>
+        <item> Peace and construction</item>
+        <item> Physical Infrastructuand Transport</item>
+        <item> Science, Technology and Environment</item>
+        <item> Urban Development</item>
+        <item> Women, Children and Social Welfare</item>
+        <item> Youth and Sports	</item>
+
+    </string-array>
+    <string-array name="district">
+
+        <item>	Arghakhanchi	</item>
+        <item>	Baglung	</item>
+        <item>	Baitadi	</item>
+        <item>	Bajhang	</item>
+        <item>	Bajura	</item>
+        <item>	Banke	</item>
+        <item>	Bara	</item>
+        <item>	Bardiya	</item>
+        <item>	Bhaktapur	</item>
+        <item>	Bhojpur	</item>
+        <item>	Chitwan	</item>
+        <item>	Dadeldhura	</item>
+        <item>	Dailekh	</item>
+        <item>	Dang	</item>
+        <item>	Darchula	</item>
+        <item>	Dhading	</item>
+        <item>	Dhankuta	</item>
+        <item>	Dhanusa	</item>
+        <item>	Dholkha	</item>
+        <item>	Dolpa	</item>
+        <item>	Doti	</item>
+        <item>	Gorkha	</item>
+        <item>	Gulmi	</item>
+        <item>	Humla	</item>
+        <item>	Ilam	</item>
+        <item>	Jajarkot	</item>
+        <item>	Jhapa	</item>
+        <item>	Jumla	</item>
+        <item>	Kailali	</item>
+        <item>	Kalikot	</item>
+        <item>	Kanchanpur</item>
+        <item>	Kapilvastu</item>
+        <item>	Kaski	</item>
+        <item>	Kathmandu</item>
+        <item>	Kavrepalanchok	</item>
+        <item>	Khotang	</item>
+        <item>	Lalitpur</item>
+        <item>	Lamjung	</item>
+        <item>	Mahottari</item>
+        <item>	Makwanpur</item>
+        <item>	Manang	</item>
+        <item>	Morang	</item>
+        <item>	Mugu	</item>
+        <item>	Mustang	</item>
+        <item>	Myagdi	</item>
+        <item>	Nawalparasi	</item>
+        <item>	Nuwakot	</item>
+        <item>	Okhaldhunga</item>
+        <item>	Palpa	</item>
+        <item>	Panchthar</item>
+        <item>	Parbat	</item>
+        <item>	Parsa	</item>
+        <item>	Pyuthan	</item>
+        <item>	Ramechhap</item>
+        <item>	Rasuwa	</item>
+        <item>	Rautahat</item>
+        <item>	Rolpa</item>
+        <item>	Rukum</item>
+        <item>	Rupandehi</item>
+        <item>	Salyan	</item>
+        <item>	Sankhuwasabha	</item>
+        <item>	Saptari	</item>
+        <item>	Sarlahi	</item>
+        <item>	Sindhuli</item>
+        <item>	Sindhupalchok	</item>
+        <item>	Siraha	</item>
+        <item>	Solukhumbu</item>
+        <item>	Sunsari	</item>
+        <item>	Surkhet	</item>
+        <item>	Syangja	</item>
+        <item>	Tanahu	</item>
+        <item>	Taplejung</item>
+        <item>	Terhathum</item>
+        <item>	Udayapur</item>
+    </string-array>
+    <string name="title_activity_user_index">Homepage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_top_trend">Welcome</string>
+    <string name="title_activity_description">Description</string>
+    <string name="title_activity_recent_post">Recent Post</string>
+    <string name="title_activity_gov_register">Goverment Official Regsitration</string>
+    <string name="title_activity_gov_index">GovIndexActivity</string>
+    <string name="poor">Children in rural areas do not have proper school and colleges for studying</string>
+</resources>

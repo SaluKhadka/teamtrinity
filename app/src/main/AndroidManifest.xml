@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sujin.opencomplaintss">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mirror"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserIndexActivity"
+            android:label="@string/title_activity_user_index"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TopTrendActivity"
+            android:label="@string/title_activity_top_trend"
+            android:parentActivityName=".UserIndexActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sujin.opencomplaintss.UserIndexActivity" />
+        </activity>
+        <activity
+            android:name=".Description"
+            android:label="@string/title_activity_description"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RecentPost"
+            android:label="@string/title_activity_recent_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GovRegisterActivity"
+            android:label="@string/title_activity_gov_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GovIndexActivity"
+            android:label="@string/title_activity_gov_index"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
